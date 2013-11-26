@@ -25,14 +25,6 @@ public class WakeUpRequest {
 	public static void intializedatabase() {
 
 		dbCon = ConnectionManager.getConnection();
-		/*
-		 * try { Class.forName(DBConstants.DB_DRIVER); } catch
-		 * (ClassNotFoundException cfe) {
-		 * System.out.println("The JDBC drive loading failed.");
-		 * cfe.printStackTrace(); } try {
-		 * 
-		 * } catch (SQLException se) { SQLExcept.handleException(se); }
-		 */
 	}
 
 	public void NewUser(String[] attributesNames, String[] paramValues) {

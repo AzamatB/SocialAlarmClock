@@ -24,7 +24,7 @@ public class UserRegistration {
 
 	private static Connection dbCon ;
 	PreparedStatement preparedStatementinsert ;
-	int check;
+
 	public UserRegistration() {
 		
 		
